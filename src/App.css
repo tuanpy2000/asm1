@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.content {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.header{
+  padding-top: 32px;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+.header-info{
+}  
+
+.contact-list{
+  margin-top: 52px;
+  margin: auto;
+}
+
+.contact-icon,.skill-icon{
+  font-size: 24px;
+  color: #009688;
+  margin-right: 8px;
+  flex-shrink: 1;
+  height: auto;
+}
+
+.contact-item,.skill-item{
+  display: flex;
+  word-break: break-all;
+}
+
+.contact-item{
+  margin: auto;
+}
+
+.contact-item,
+.skill-item{
+  align-items: center;
+  list-style-type: none;
+  line-height: 32px;;
+}
+
+.skill-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.header .image{
+  background: url(/public/image.jpg) top center / cover no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.container {
+  min-height: 100vh;
+  
+  font-size: calc(10px + 2vmin);
+}
+
+h3{
+  font-family: 'Amatic SC', cursive;
+  font-size: xx-large;
+}
+
+.about p{
+  padding: 0 40px;
+}
+

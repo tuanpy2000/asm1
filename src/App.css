@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -12,23 +12,24 @@
   font-family: 'Source Code Pro', monospace;
 }
 
-.header{
+.header {
   padding-top: 32px;
 }
 
-h2{
+h2 {
   font-size: xx-large;
 }
 
-.header-info{
-}  
+.header-info {}
 
-.contact-list{
+.contact-list {
   margin-top: 52px;
   margin: auto;
+  width: 351px;
 }
 
-.contact-icon,.skill-icon{
+.contact-icon,
+.skill-icon {
   font-size: 24px;
   color: #009688;
   margin-right: 8px;
@@ -36,28 +37,32 @@ h2{
   height: auto;
 }
 
-.contact-item,.skill-item{
+.contact-item,
+.skill-item {
   display: flex;
   word-break: break-all;
 }
 
-.contact-item{
+.contact-item {
   margin: auto;
 }
 
+.contact-item p {}
+
 .contact-item,
-.skill-item{
+.skill-item {
   align-items: center;
   list-style-type: none;
-  line-height: 32px;;
+  line-height: 32px;
+  ;
 }
 
-.skill-list{
+.skill-list {
   display: flex;
   justify-content: space-around;
 }
 
-.header .image{
+.header .image {
   background: url(/public/image.jpg) top center / cover no-repeat;
   width: 200px;
   height: 200px;
@@ -67,16 +72,32 @@ h2{
 
 .container {
   min-height: 100vh;
-  
+
   font-size: calc(10px + 2vmin);
 }
 
-h3{
+h3 {
   font-family: 'Amatic SC', cursive;
   font-size: xx-large;
 }
 
-.about p{
+.about p {
   padding: 0 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+  }
+
+  .header-info {
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header .image {
+    width: 400px;
+    height: 400px;
+  }
+}

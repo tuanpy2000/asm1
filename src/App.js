@@ -21,16 +21,24 @@ function App() {
           <div className='contac-wrapper'>
             <ul className='contact-list'>
               <li className='contact-item'>
-                <HiMail className='contact-icon' />phamdinhtuan1912@gmail.com
+                <HiMail className='contact-icon' /><p>
+                  phamdinhtuan1912@gmail.com
+                </p>
               </li>
               <li className='contact-item'>
-                <MdPhoneIphone className='contact-icon' />0367711566
+                <MdPhoneIphone className='contact-icon' /><p>
+                  0367711566
+                </p>
               </li>
               <li className='contact-item'>
-                <HiLocationMarker className='contact-icon' />Ho Chi Minh
+                <HiLocationMarker className='contact-icon' /><p>
+                  Ho Chi Minh
+                </p>
               </li>
               <li className='contact-item'>
-                <FaGithub className='contact-icon' />https://github.com/tuanpy2000
+                <FaGithub className='contact-icon' /><p>
+                  https://github.com/tuanpy2000
+                </p>
               </li>
             </ul>
           </div>
